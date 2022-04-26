@@ -125,12 +125,12 @@ button {
 .heading {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 300;
   line-height: 1.2;
   padding: 0.5rem 0.2rem 0 0;
   margin: 0;
-  color: #fff;
+  color: white;
 
 }
 
@@ -742,6 +742,7 @@ button {
 
 .faq {
   text-align: left;
+  padding-left: 10%;
   margin-top: 4rem;
 }
 
@@ -922,6 +923,53 @@ button {
 }
 }
 
+.faq-text{
+    font-size: 1rem;
+  color: #000;
+  padding-right: 10%;
+  padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.faq-heading{
+    margin-bottom: 5px;
+  font-size: 1.3rem;
+  letter-spacing: 0;
+  line-height: 32px;
+  color: #000;
+    font-weight: 500;
+    text-transform: none !important;
+    position: relative;
+    padding-left: 1rem;
+}
+.faq-heading:hover, .faq-heading:focus {
+    color: #25ced1;
+}
+.faq-heading::before {
+    content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #25ced1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: rotate(0deg) translateY(-50%);
+  transform-origin: 28% 0;
+  transition: .25s transform ease;
+}
+.faq-heading[aria-expanded="false"]::before {
+    transform: rotate(0deg) translateY(-50%);
+}
+.faq-heading[aria-expanded="true"]::before {
+    transform: rotate(90deg) translateY(-50%);
+}
+.collapse-box{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#headingOne,#headingTwo{
+    padding:0;
+}
 /* 
 .navbar {
   position: fixed;

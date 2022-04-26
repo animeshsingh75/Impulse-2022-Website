@@ -1,2 +1,2 @@
-# Impulse-2020-Website
-This is official website of IOSD-MAIT's Impulse 2020
+# Impulse-2022-Website
+This is official website of IOSD-MAIT's Impulse 2022
