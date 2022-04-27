@@ -901,9 +901,9 @@ button {
   background-color: #000000;
 }
 .logo {
-  width: 30px;
-  height: 30px;
-  overflow: hidden;
+  width: auto;
+	height: 36px;
+	overflow: hidden;
 }
 .dropdown-menu{
   background-color: #1e272e;;
