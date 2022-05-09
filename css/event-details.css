@@ -33,6 +33,14 @@ body{
 	color : #ffffff;
 	background-color: transparent;
 }
+
+@media screen and (max-width: 991px)
+{
+	.volunteer {
+		margin-top: 12px !important;
+	}
+}
+
 .clr{
 	background-color: #0d3c79;
 	/*background-color:#1d8cf8;*/
@@ -295,6 +303,11 @@ body{
 .special{
 	font-weight: 500;
 }
+
+
+
+
+
 @media (max-width: 786px)
 {
 	.social-icon {

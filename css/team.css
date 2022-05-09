@@ -40,7 +40,7 @@ body {
   width: 40%;
   margin: 0 auto;
   padding: 0 0 4rem 0;
-  -ms-grid-columns: (minmax(12rem, 1fr))[2];
+  -ms-grid-columns: (minmax(12rem, 1fr));
       grid-template-columns: repeat(2, minmax(12rem, 1fr));
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -79,6 +79,38 @@ body {
   .grid__content {
     height: initial;
   }
+}
+
+.highlight{
+	color: #ed254e;
+	border-color: #ed254e;
+}
+.highlight1{
+	color: #25ced1;
+	border-color: #25ced1;
+}
+.highlight:hover{
+	background-color: #ed254e !important;
+	color:#ffffff;
+}
+.highlight:active{
+	color : #ffffff;
+	background-color: transparent;
+}
+.highlight1:hover{
+	background-color: #25ced1 !important;
+	color:#ffffff;
+}
+.highlight1:active{
+	color : #ffffff;
+	background-color: transparent;
+}
+
+@media screen and (max-width: 991px)
+{
+	.volunteer {
+		margin-top: 12px !important;
+	}
 }
 
 .grid__content img {

@@ -864,6 +864,38 @@ button {
           transform: scale(1.1);
 }
 
+.highlight{
+	color: #ed254e;
+	border-color: #ed254e;
+}
+.highlight1{
+	color: #25ced1;
+	border-color: #25ced1;
+}
+.highlight:hover{
+	background-color: #ed254e !important;
+	color:#ffffff;
+}
+.highlight:active{
+	color : #ffffff;
+	background-color: transparent;
+}
+.highlight1:hover{
+	background-color: #25ced1 !important;
+	color:#ffffff;
+}
+.highlight1:active{
+	color : #ffffff;
+	background-color: transparent;
+}
+
+@media screen and (max-width: 991px)
+{
+	.volunteer {
+		margin-top: 12px !important;
+	}
+}
+
 .theme__container {
   width: 80%;
   text-align: left;
