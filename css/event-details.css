@@ -227,7 +227,7 @@ body{
 .speaker{
 	width: 100vw;
 	overflow: hidden;
-	filter: grayscale(1);
+	filter: grayscale(0.8);
 }
 .hc{
 	position: relative;
